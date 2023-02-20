@@ -30,9 +30,10 @@
   text-align: center;
   flex-grow: 1;
 }
-/* ************************************************** */
+
+/* ******************** */
 /* article information */
-/* ************************************************** */
+/* ****************** */
 
 /* circle with price */
 .article_places_header {
@@ -54,9 +55,9 @@
     margin-bottom: 5px;
 }
 
-/* ******************************************/
+/* *************************** */
 /* information box with icons */
-/* ******************************************/
+/* ************************* */
 
 .information {
   width: 100%;
@@ -101,9 +102,9 @@
   text-align:center;
 }
 
-/*******************************************/
+/*********************/
 /* more information */
-/*******************************************/
+/*******************/
 .places .amenities,
 .places .reviews {
   margin-top: 40px;
@@ -131,9 +132,11 @@
 .places .reviews p {
   font-size: 12px;
 }
-/*******************************************/
+
+/********************/
 /* amenities icons */
-/*******************************************/
+/******************/
+
 .places .amenities ul li{
   display: flex;
   flex-direction: row;
@@ -141,14 +144,16 @@
   align-content: center;
   margin-bottom: 10px;
   align-items: end;
-  }
+}
 
 .places_amenities_pet_friendly {
   background-image: url(../images/icon_pets.png);
 }
+
 .places_amenities_tv {
   background-image: url(../images/icon_tv.png);
 }
+
 .places_amenities_wifi {
   background-image: url(../images/icon_wifi.png);
 }

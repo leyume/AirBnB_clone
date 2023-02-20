@@ -28,14 +28,16 @@
   flex-grow: 1;
 }
 
+
+/* ******************** */
+/* article information */
+/* ****************** */
+
 article {
   z-index: -1;
   display: flex;
   flex-wrap: wrap;
 }
-/* ************************************************** */
-/* article information */
-/* ************************************************** */
 
 /* circle with price */
 .article_places_header {
@@ -58,9 +60,9 @@ article {
     margin-bottom: 5px;
 }
 
-/* ******************************************/
+/* *****************************/
 /* information box with icons */
-/* ******************************************/
+/* ***************************/
 
 .information {
   width: 100%;
@@ -78,8 +80,10 @@ article {
   margin: 0;
   padding: 0;
 }
+
 /***********/
-/* icons   */
+/* icons  */
+/*********/
 
 .max_guest {
   background-image: url(../images/icon_group.png);
@@ -104,9 +108,9 @@ article {
   text-align:center;
 }
 
-/*******************************************/
+/*********************/
 /* more information */
-/*******************************************/
+/*******************/
 
 .places .amenities,
 .places .reviews {
@@ -135,9 +139,11 @@ article {
 .places .reviews p {
   font-size: 12px;
 }
-/*******************************************/
+
+/********************/
 /* amenities icons */
-/*******************************************/
+/******************/
+
 .places .amenities ul li{
   display: flex;
   flex-direction: row;

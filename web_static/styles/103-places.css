@@ -164,9 +164,9 @@ article:focus {
 .places .reviews p {
   font-size: 12px;
 }
-/*******************************************/
+/********************/
 /* amenities icons */
-/*******************************************/
+/******************/
 .places .amenities ul li{
   display: flex;
   flex-direction: row;
